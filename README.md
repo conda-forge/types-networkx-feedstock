@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@0xbe7a](https://github.com/0xbe7a/)
+* [@fhoehle](https://github.com/fhoehle/)
 
