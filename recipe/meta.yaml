@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -34,6 +34,7 @@ test:
 
 about:
   home: https://github.com/python/typeshed
+  dev_url: https://github.com/python/typeshed
   summary: Typing stubs for networkx
   license: Apache-2.0 AND MIT
   license_file: LICENSE
