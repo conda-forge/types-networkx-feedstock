@@ -1,5 +1,5 @@
 {% set name = "types-networkx" %}
-{% set version = "3.5.0.20251106" %}
+{% set version = "3.6.0.20251127" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/types_networkx-{{ version }}.tar.gz
-  sha256: 2f17a53a35cf6dbbb031039c19bf0f127ec1b37f3530c57a517a0dd67a42e343
+  sha256: df8c81f66247e9dcdbdc4e9827990befeb7cb14f9cfb36d401b1ec4ab834a6cc
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
