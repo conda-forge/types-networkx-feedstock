@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: types-networkx
-  version: "3.6.1.20261107"
+  version: "3.6.1.20261108"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: b16bfc9acc5e947e31cb14f2facc992651d7d089769fecfb739e37cbbf48134d
+  sha256: 673f5d2e181749a39d3ef4c4dd045d47ad1a132b8a732748d44c753d2ae42c16
 
 build:
   number: 0
